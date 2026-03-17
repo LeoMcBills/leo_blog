@@ -4,12 +4,26 @@ site_author: Leo
 
 theme:
   name: material
+  palette:
+    # Light mode (default)
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   features:
     - content.code.copy
     - navigation.instant
 
 plugins:
   - blog
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - attr_list

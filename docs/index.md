@@ -1,9 +1,18 @@
-# Leo Kinyera
-### Biomedical Engineer | AI Systems Builder | MRI & Embedded Systems Researcher
+<section class="leo-hero" aria-label="Intro">
+  <div class="leo-hero__media">
+    <img class="leo-hero__avatar" src="assets/profile/leoKinyera.png" alt="Leo Kinyera">
+  </div>
 
-<div style="text-align: center; margin: 40px 0;">
-  <img src="assets/profile/leoKinyera.png" alt="Leo Kinyera" style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 3px solid #f0f0f0;">
-</div>
+  <div class="leo-hero__text">
+    <h1 class="leo-hero__title">Leo Kinyera</h1>
+    <p class="leo-hero__subtitle">Biomedical Engineer | AI Systems Builder | MRI &amp; Embedded Systems Researcher</p>
+    <div class="leo-hero__links">
+      <a class="leo-hero__link" href="/blog/">Read the blog</a>
+      <a class="leo-hero__link leo-hero__link--ghost" href="assets/Leo_Kinyera_Resume.pdf">Resume</a>
+      <a class="leo-hero__link leo-hero__link--ghost" href="assets/Leo_Kinyera_CV.pdf">CV</a>
+    </div>
+  </div>
+</section>
 
 ---
 
