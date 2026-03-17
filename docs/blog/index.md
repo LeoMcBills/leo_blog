@@ -2,11 +2,9 @@
 
 # Engineering the Invisible: A Beginning
 
-Dive into the fascinating world where technology meets innovation. Explore cutting-edge insights on MRI technology, artificial intelligence breakthroughs, precise PCB design, and the intricacies of embedded systems.
+This blog is an invitation to look beneath the surface of technology—to the interactions, fields, and signals that quietly govern how systems really work. Here you’ll find rigorous yet accessible explorations of MRI, AI, electronics, and embedded systems, approached from first principles rather than buzzwords.
 
-Whether you're an engineer, researcher, or tech enthusiast, discover the hidden layers of reality that drive modern advancements. From signal processing to AI algorithms, get the expert analysis and practical tips you need to stay ahead.
-
-Signals. Fields. Noise. Structure. — Uncover it all here.
+Across these writings, I focus on building deep intuition, designing systems that sense, think, and act, and treating constraints as catalysts for better engineering. If you are willing to think carefully and question assumptions, this space will help you develop the mindset of a systems builder, not just a technology user.
 
 ---
 
@@ -30,8 +28,6 @@ How does a pattern of voltages become intelligence?
 
 ## The Frontier I Am Exploring
 
-![Electronics and AI Systems](https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&w=1600&q=80)
-
 My work lives at the intersection of disciplines that rarely speak fluently to one another:
 
 - **Medical imaging systems** that turn physics into perception  
@@ -48,8 +44,6 @@ Together, they become something else entirely:
 ---
 
 ## What You Should Expect
-
-![Engineering Lab Setup](https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1600&q=80)
 
 This is not a place for surface-level explanations.
 
@@ -68,8 +62,6 @@ All of them will be **honest**.
 ---
 
 ## Why This Matters
-
-![AI in Healthcare](https://images.unsplash.com/photo-1580281657527-47c7b3b48c64?auto=format&fit=crop&w=1600&q=80)
 
 We are entering an era where:
 
@@ -104,8 +96,6 @@ That requires a different mindset:
 ---
 
 ## What Comes Next
-
-![Signal Processing Visualization](https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1600&q=80)
 
 In the coming writings, we will explore:
 
