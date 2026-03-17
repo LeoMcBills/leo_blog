@@ -1,0 +1,146 @@
+/* Theme-aware heading colors (Material for MkDocs) */
+
+/* Light scheme (default) */
+:root,
+[data-md-color-scheme="default"] {
+  --leo-h1-color: #0f172a; /* slate-900 */
+  --leo-h2-color: #1e3a8a; /* indigo-900 */
+  --leo-h3-color: #1d4ed8; /* blue-700 */
+
+  --leo-hero-bg: rgba(2, 6, 23, 0.03);
+  --leo-hero-border: rgba(2, 6, 23, 0.08);
+  --leo-hero-subtle: rgba(2, 6, 23, 0.72);
+  --leo-hero-link-border: rgba(37, 99, 235, 0.35);
+  --leo-hero-link-bg: rgba(37, 99, 235, 0.12);
+  --leo-hero-link-fg: var(--md-default-fg-color, #0f172a);
+  --leo-hero-link-ghost-fg: var(--md-default-fg-color, #0f172a);
+}
+
+/* Dark scheme (slate) */
+[data-md-color-scheme="slate"] {
+  --leo-h1-color: #f8fafc; /* slate-50 */
+  --leo-h2-color: #93c5fd; /* blue-300 */
+  --leo-h3-color: #60a5fa; /* blue-400 */
+
+  --leo-hero-bg: rgba(255, 255, 255, 0.04);
+  --leo-hero-border: rgba(255, 255, 255, 0.10);
+  --leo-hero-subtle: rgba(255, 255, 255, 0.72);
+
+  --leo-hero-link-border: rgba(147, 197, 253, 0.40);
+  --leo-hero-link-bg: rgba(147, 197, 253, 0.14);
+  --leo-hero-link-fg: rgba(248, 250, 252, 0.92);
+  --leo-hero-link-ghost-fg: rgba(248, 250, 252, 0.86);
+}
+
+/* Apply to page titles + headings */
+.md-typeset h1 {
+  color: var(--leo-h1-color);
+}
+
+.md-typeset h2 {
+  color: var(--leo-h2-color);
+}
+
+.md-typeset h3 {
+  color: var(--leo-h3-color);
+}
+
+/* Home page hero (photo + title) */
+.md-typeset .leo-hero {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  align-items: center;
+  gap: 28px;
+  margin: 24px 0 34px;
+  padding: 22px 22px;
+  border-radius: 18px;
+  background:
+    radial-gradient(1200px 500px at 20% 10%, rgba(37, 99, 235, 0.10), transparent 55%),
+    radial-gradient(900px 400px at 80% 70%, rgba(99, 102, 241, 0.10), transparent 55%),
+    var(--leo-hero-bg);
+  border: 1px solid var(--leo-hero-border);
+  color: var(--md-default-fg-color, #0f172a);
+}
+
+.md-typeset .leo-hero__media {
+  display: flex;
+  justify-content: center;
+}
+
+.md-typeset .leo-hero__avatar {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow:
+    0 18px 45px rgba(0, 0, 0, 0.22),
+    0 2px 0 rgba(255, 255, 255, 0.06) inset;
+  border: 1px solid var(--leo-hero-border);
+  flex: 0 0 auto;
+}
+
+.md-typeset .leo-hero__title {
+  margin: 0;
+  letter-spacing: -0.02em;
+  font-weight: 750;
+  font-size: clamp(2.0rem, 2.8vw, 2.6rem);
+  line-height: 1.12;
+  color: var(--leo-h1-color);
+}
+
+.md-typeset .leo-hero__subtitle {
+  margin: 10px 0 0;
+  font-size: 1.05rem;
+  line-height: 1.45;
+  color: var(--leo-hero-subtle);
+  max-width: 52ch;
+}
+
+.md-typeset .leo-hero__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.md-typeset .leo-hero__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: 1px solid var(--leo-hero-link-border);
+  background: var(--leo-hero-link-bg);
+  color: var(--leo-hero-link-fg);
+}
+
+.md-typeset .leo-hero__link--ghost {
+  border-color: var(--leo-hero-border);
+  background: transparent;
+  color: var(--leo-hero-link-ghost-fg);
+}
+
+.md-typeset .leo-hero__link:hover {
+  filter: brightness(1.05);
+}
+
+@media (max-width: 780px) {
+  .md-typeset .leo-hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 18px 16px;
+  }
+
+  .md-typeset .leo-hero__subtitle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .md-typeset .leo-hero__links {
+    justify-content: center;
+  }
+}
+
