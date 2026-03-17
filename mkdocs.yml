@@ -1,0 +1,16 @@
+site_name: The Leo blog
+site_description: A blog about MRI, AI, PCB design, and embedded systems.
+site_author: Leo
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - navigation.instant
+
+plugins:
+  - blog
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
