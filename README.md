@@ -1,4 +1,4 @@
-# Leo Kinyera's Blog & Portfolio
+# Leo Kinyera's Technical Blog & Portfolio
 
 A personal blog and portfolio site covering MRI technology, AI, PCB design, and embedded systems.
 
