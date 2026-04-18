@@ -1,3 +1,8 @@
+---
+title: home
+icon: material/home
+---
+
 <section class="leo-hero" aria-label="Intro">
   <div class="leo-hero__media">
     <img class="leo-hero__avatar" src="assets/profile/leoKinyera.png" alt="Leo Kinyera">
@@ -5,10 +10,9 @@
 
   <div class="leo-hero__text">
     <h1 class="leo-hero__title">Leo Kinyera</h1>
-    <p class="leo-hero__subtitle">Biomedical Engineer | AI Systems Builder | MRI &amp; Embedded Systems Researcher</p>
+    <p class="leo-hero__subtitle">Engineer - MRI, AI and Embedded Systems</p>
     <div class="leo-hero__links">
       <a class="leo-hero__link" href="/blog/">Read the blog</a>
-      <a class="leo-hero__link leo-hero__link--ghost" href="assets/Leo_Kinyera_Resume.pdf">Resume</a>
       <a class="leo-hero__link leo-hero__link--ghost" href="assets/Leo_Kinyera_CV.pdf">CV</a>
     </div>
   </div>
@@ -16,35 +20,20 @@
 
 ---
 
-I design and build systems that operate beneath the surface—where signals, fields, and intelligence converge.
+A Biomedical Engineer with deep expertise in low-field MRI research but also knowledge on the following topics:
 
-My work sits at the intersection of:
+- AI Engineering
+- PCB design and fabrication
+- Embedded systems
 
-- **Medical imaging systems** (MRI, RF, gradient design)
-- **Artificial intelligence** for signal reconstruction and interpretation
-- **Embedded systems and edge intelligence** (TinyML, microcontrollers)
-- **Electronics and PCB design** for high-performance applications
-
-I am particularly interested in developing **low-field MRI systems enhanced by AI**, with the goal of making advanced medical imaging more accessible and scalable.
-
----
-
-## Philosophy
-
-Engineering, to me, is not about assembling components. It is about understanding the **invisible forces** that govern how systems behave—and designing with those forces in mind.
-
-I approach problems from first principles, focusing on:
-- Signal behavior rather than abstraction
-- System interactions rather than isolated parts
-- Constraints as drivers of innovation
+I am currently particularly interested in leveraging AI agents in MRI for autonomous MRI.
 
 ---
 
 ## Selected Work & Research
 
 - AI models for enhancing low-field MRI image quality
-- Gradient system design and slice-select implementation
-- RF coil design and signal acquisition systems
+- Gradient system design and fabrication
 - Embedded AI systems on constrained hardware
 - Safety frameworks for MRI (PNS and SAR monitoring)
 
@@ -60,18 +49,13 @@ I approach problems from first principles, focusing on:
 
 ## Resume & CV
 
-[Download my full resume here](path/to/resume.pdf)  <!-- Update with actual path -->
+[Download my full CV here](assets/Leo_Kinyera_CV.pdf)
 
 ---
 
 [Read my latest blog posts](/blog/)
 
-You can download my professional documents below:
-
-- [Download Resume](assets/Leo_Kinyera_Resume.pdf)  
-- [Download CV](assets/Leo_Kinyera_CV.pdf)  
-
-> *(If links do not work, ensure the files are placed inside the `docs/assets/` directory in your MkDocs project.)*
+In these blogs, I share my thoughts on a number of topics in MRI, AI and PCB design
 
 ---
 
@@ -79,5 +63,4 @@ You can download my professional documents below:
 
 I am currently focused on building systems that integrate **physics, intelligence, and hardware** into cohesive, real-world solutions.
 
-If your work intersects with these domains—or aims to push the boundaries of medical and intelligent systems—  
-I am always open to meaningful collaboration.
+If your work intersects with these domains, or aims to push the boundaries of medical and intelligent systems, I am always open to meaningful collaboration.

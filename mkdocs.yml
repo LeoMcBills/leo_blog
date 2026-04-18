@@ -18,6 +18,8 @@ theme:
   features:
     - content.code.copy
     - navigation.instant
+    - toc.follow
+    - navigation.tracking
 
 plugins:
   - blog
@@ -28,3 +30,5 @@ extra_css:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - toc:
+      permalink: true

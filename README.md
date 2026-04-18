@@ -10,4 +10,4 @@ A personal blog and portfolio site covering MRI technology, AI, PCB design, and 
 
 ## License
 
-Licensed under CC BY 4.0. See [LICENSE](LICENSE) for details.
+Licensed under CC BY 4.0. See [LICENSE](LICENSE) for details.~
