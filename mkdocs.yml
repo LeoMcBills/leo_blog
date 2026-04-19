@@ -1,6 +1,8 @@
 site_name: The Leo blog
 site_description: A blog about MRI, AI, PCB design, and embedded systems.
 site_author: Leo
+# Required for instant navigation, search, and canonical URLs. Replace with your real site URL when you deploy (e.g. GitHub Pages).
+site_url: https://example.com
 
 theme:
   name: material
@@ -18,11 +20,31 @@ theme:
   features:
     - content.code.copy
     - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
     - toc.follow
     - navigation.tracking
 
+nav:
+  - Home: index.md
+  - Blog:
+    - blog/index.md
+    - Categories:
+        - MRI: blog/category/mri.md
+        - AI Agents: blog/category/ai-agents.md
+        - PCB design: blog/category/pcb-design.md
+        - Embedded systems: blog/category/embedded-systems.md
+
 plugins:
-  - blog
+  - blog:
+      archive: false
+      categories_allowed:
+        - MRI
+        - AI Agents
+        - PCB design
+        - Embedded systems
 
 extra_css:
   - stylesheets/extra.css

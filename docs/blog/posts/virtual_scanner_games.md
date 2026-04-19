@@ -1,8 +1,11 @@
 ---
 title: Virtual Scanner Games
-author: Leo Kinyera
+authors:
+  - leo
 icon: material/gamepad-variant
 date: 2026-04-18
+categories:
+  - MRI
 ---
 
 # An MRI virtual Scanner games
