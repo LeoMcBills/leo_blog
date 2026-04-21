@@ -10,6 +10,8 @@ categories:
 
 # An MRI virtual Scanner games
 
+![Virtual Scanner Games](../../assets/virtual_scanner/virtual_games.png){ style="border-radius: 14px;" }
+
 A note on learning MRI the slow way, through games.
 
 There is a room that fits on a desk. Inside it, no one is scanned, and yet everyone is changed. The magnet is imaginary until it is not; the pulse sequence is a recipe you cannot taste; the image arrives like weather, later than expected, exactly when you were ready to stop waiting.
