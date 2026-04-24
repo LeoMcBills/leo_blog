@@ -19,6 +19,7 @@ theme:
         name: Switch to light mode
   features:
     - content.code.copy
+    - navigation.indexes
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
@@ -39,7 +40,7 @@ nav:
 
 plugins:
   - blog:
-      archive: false
+      archive: true
       categories_allowed:
         - MRI
         - AI Agents

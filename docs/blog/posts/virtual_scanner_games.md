@@ -4,6 +4,9 @@ authors:
   - leo
 icon: material/gamepad-variant
 date: 2026-04-18
+tags:
+  - MRI
+  - virtual scanner
 categories:
   - MRI
 ---
